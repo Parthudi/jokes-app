@@ -1,0 +1,40 @@
+body{
+    background-color: lightseagreen;
+}
+#btn {
+    color: violet;
+    margin-left:  45%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: larger;
+}
+
+
+#message {
+    text-align: center;
+    background-color: lightcoral;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#message2 {
+    text-align: center; 
+    background-color: lightcoral;
+    font-weight: bolder;
+    font-size:22px;
+}
+
+.myname{
+    font-size: 30px;
+    margin-top: 27%;
+    color: red;
+    animation-name: example;
+    animation-duration: 20s;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
